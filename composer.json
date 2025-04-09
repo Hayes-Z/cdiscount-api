@@ -1,0 +1,22 @@
+{
+    "name": "zh-hayes/cdiscount-api",
+    "description": "cdiscount oauth2 PHP API.",
+    "type": "library",
+    "license": "Apache-2.0",
+	"homepage": "https://github.com/Hayes-Z/cdiscount-api.git",
+    "authors": [{
+        "name": "zh-hayes",
+        "email": ""
+    }],
+    "require": {
+        "php": ">=5.5.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+	    "ext-fileinfo": "*"
+	},
+    "autoload": {
+        "psr-4": {
+            "Cdiscount\\": "src/"
+        }
+    }
+}
